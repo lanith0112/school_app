@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+}
+h3{
+    color:red;
+}
+body{
+    background-color: bisque;
+}
+*{
+    padding: 0%;
+    margin: 20;
+    margin-top: 60;
+}

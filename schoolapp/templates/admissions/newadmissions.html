@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+    <head>
+        <title> This is new admissions page</title>
+        <link rel="stylesheet" href="{%static "stylesheets/style.css" %}">
+    <body>
+        <h1>Hi welcome to my new admissions page,this is {{name}}</h1>
+        <img src="{% static "images/logo.png" %}" alt="image not found"/>
+        <h2>my age is {{age}}</h2>
+        <h3>click here for new admission</h3>
+        <h4>address is {{address}}</h4>
+    </body>
+    </head>
+</html>
